@@ -1,0 +1,35 @@
+body
+{
+    background-color: #493D9E;
+}
+
+.section-title, .main-title
+{
+    color: #DAD2FF;
+}
+
+.text
+{
+    color: #B2A5FF;
+}
+
+a
+{
+    color: #B5A8D5;
+}
+
+aside 
+{
+    flex-direction: column;
+    justify-content: right;
+}
+
+.test-class
+{
+    align-content: flex-end;
+}
+
+.recepis-text
+{
+    color: #B2A5FF;
+}
