@@ -33,3 +33,9 @@ aside
 {
     color: #B2A5FF;
 }
+
+img, iframe
+{
+    width: 100%;        
+    max-width: 600px;   
+}
