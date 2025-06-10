@@ -20,8 +20,8 @@ a
 
 aside 
 {
-    flex-direction: column;
-    justify-content: right;
+    /*flex-direction: column;
+    justify-content: right;*/
 }
 
 .test-class
@@ -34,8 +34,24 @@ aside
     color: #B2A5FF;
 }
 
-img, iframe
+.item-image
 {
-    width: 100%;        
-    max-width: 600px;
+    border-radius: 25%;
+    border: 5px solid orange;
+    width: 600px;
+    height: 400px;
+}
+
+#recipes-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.item
+{
+    justify-items: center;
+    box-sizing: content-box;
+    margin: 10px;
 }
