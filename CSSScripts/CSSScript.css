@@ -8,6 +8,11 @@ body
     color: #DAD2FF;
 }
 
+.main-title
+{
+    font-size: 36px;
+}
+
 .text, .recepis-text
 {
     color: #B2A5FF;
@@ -16,11 +21,6 @@ body
 a
 {
     color: #B5A8D5;
-}
-
-.test-class
-{
-    align-content: flex-end;
 }
 
 img
@@ -52,4 +52,14 @@ iframe
 .item > p
 {
     font-size: larger;
+}
+
+nav > ul > li
+{
+    margin-left: 25px;
+}
+
+#li1, #li4
+{
+    margin-left: 0px;
 }
